@@ -34,4 +34,15 @@ function factorial(x) {
          }
     return total
 }
-console.log('factorial:' , factorial(8))
+console.log('factorial:' , factorial(6))
+
+//fibonacci
+function fibonacci(x) {
+    
+    for (let index = 1; index < 1; index+=1) {
+      
+        
+    }
+    return x
+}
+console.log('fibonacci:' , fibonacci(8))

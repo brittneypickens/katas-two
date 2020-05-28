@@ -37,10 +37,10 @@ function factorial(x) {
 console.log('factorial:' , factorial(6))
 
 //fibonacci
-function fibonacci(x) {
-    
-    for (let index = 1; index < 1; index+=1) {
-      
+function fibonacci(x, n) {
+    total = 0
+    for (let index = x; index < n; index+=2) {
+      total = add(index , total)
         
     }
     return x

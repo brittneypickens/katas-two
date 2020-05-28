@@ -6,14 +6,17 @@ console.log('Add:' , add(20, 45))
 
 // multiply
 
-function multiply(x) {
-for (let x = 0; x <= 25; x += 5)  {}  
- return x
+function multiply(x , y) {
+    let total = 0
+    for (let i=0; i < y; i+=1)  {
+        total = add(x, total)
+    }
+    return total 
 }
-console.log('Multiply:' , multiply(x = 25))
+console.log('Multiply:' , multiply(20 , 45))
 
 // power
-function power () {
-    return
-}
-console.log('Power:' , power())
+function power (x , y) {}
+    
+
+console.log('Power:' , power(  ))

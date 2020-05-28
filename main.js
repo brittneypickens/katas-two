@@ -17,11 +17,11 @@ console.log('Multiply:' , multiply(20 , 45))
 
 // power
 function power (x , n) {
-    let total = 0
-    for (let index = n; index < n ; index +=1) {
-        total = power(x, total)
+    let power = n
+    for (let index = 1; index < n ; index +=1) {
+        power = multiply(x, power)
         
     }
-    return total
+    return power
 }
-    console.log('Power:' , power(5 , 7 ))
+    console.log('Power:' , power(2 , 2))

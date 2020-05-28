@@ -24,4 +24,14 @@ function power (x , n) {
     }
     return power
 }
-    console.log('Power:' , power(2 , 2))
+    console.log('Power:' , power(3 , 3))
+
+// factorial
+function factorial(x) {
+    let total = 1
+    for (let index = x; index > 1; index-=1) {
+        total = multiply(index, total)
+         }
+    return total
+}
+console.log('factorial:' , factorial(8))

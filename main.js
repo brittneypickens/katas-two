@@ -16,7 +16,12 @@ function multiply(x , y) {
 console.log('Multiply:' , multiply(20 , 45))
 
 // power
-function power (x , y) {}
-    
-
-console.log('Power:' , power(  ))
+function power (x , n) {
+    let total = 0
+    for (let index = n; index < n ; index +=1) {
+        total = power(x, total)
+        
+    }
+    return total
+}
+    console.log('Power:' , power(5 , 7 ))
